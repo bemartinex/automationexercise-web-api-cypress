@@ -1,0 +1,12 @@
+{
+  "name": "teste-keeggo",
+  "version": "1.0.0",
+  "description": "Projeto de teste automatizado que valida funcionalidades de login, busca, incluir produto e validar checkout no site automationpratice.",
+  "main": "index.js",
+  "author": "Breno Martinez",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
