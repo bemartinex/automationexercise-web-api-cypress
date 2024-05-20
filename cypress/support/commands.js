@@ -27,5 +27,5 @@ Cypress.Commands.add('checkoutDeslogado',(login, senha)=>{
 
     cy.url().should('be.equal', 'https://automationexercise.com/checkout')
 
-    cy.get('[id="address_delivery"]').should('exist')
+    cy.get('[id="address_delivery"]').should('be.visible')
 })
