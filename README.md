@@ -29,7 +29,7 @@ $ npm install cypress@13.9.0 cypress-plugin-api@2.6.1 --save-dev
 **_Feature: Login_**
 <br>
 <br>
-**CT01: Login efetuado com sucesso**
+**CT01: Login efetuado com sucesso**<br>
 Dado que o usuário está na página de login " https://automationexercise.com/login "<br>
 Quando digita “teste2021@teste.com.br” no campo de e-mail<br>
 E digita “teste” no campo de senha<br>
