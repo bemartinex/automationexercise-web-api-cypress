@@ -1,4 +1,4 @@
-## Teste de Automação - Keeggo
+## Teste de Automação
 Desafio web: Criar de testes automatizados na plataforma Automation Practice(https://www.automationexercise.com/login) que validam as seguintes funcionalidades:
 * Login;
 * Realizar buscar;
