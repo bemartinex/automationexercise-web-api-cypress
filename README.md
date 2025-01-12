@@ -30,25 +30,25 @@ $ npm install cypress@13.9.0 cypress-plugin-api@2.6.1 --save-dev
 <br>
 <br>
 **CT01: Login efetuado com sucesso**<br>
-Dado que o usuário está na página de login " https://automationexercise.com/login "<br>
-Quando digita “teste2021@teste.com.br” no campo de e-mail<br>
-E digita “teste” no campo de senha<br>
+Dado que o usuário está na página de login <br>
+Quando preenche o campo de e-mail com um dado valido<br>
+E  preenche o campo de senha com um dado valido<br>
 E clica no botão "Login"<br>
 Então o usuário deverá ser redirecionado para a página inicial “Home”.<br>
 <br>
 **CT02: Login mal-sucedido com senha incorreta**<br>
-Dado que o usuário está na página de login "https://automationexercise.com/login<br>
-Quando digita “teste2021@teste.com.br” no campo de e-mail<br>
-E insere "lerolero" no campo de senha<br>
+Dado que o usuário está na página de login <br>
+Quando preenche o campo de e-mail com um dado valido<br>
+E preenche o campo de senha com um dado invalido<br>
 E clica no botão "Login"<br>
 Então deverá ver uma mensagem de erro " Your email or password is incorrect!".<br>
 <br>
 **CT03: Login mal-sucedido com e-mail não registrado**
-Dado que o usuário está na página de login "https://automationexercise.com/login"<br>
-Quando digita “lerolero@teste.com.br” no campo de e-mail<br>
-E digita “teste” no campo de senha<br>
-E clica no botão "Entrar"<br>
-Então deverá ver uma mensagem de erro " Your email or password is incorrect! ".<br>
+Dado que o usuário está na página de login <br>
+Quando preenche o campo de e-mail com um dado invalido<br>
+E preenche o campo de senha com um dado valido<br>
+E clica no botão "Login"<br>
+Então deverá ver uma mensagem de erro " Your email or password is incorrect!".<br>
 <br>
 <br>
 **_Feature: Realizar busca_**
